@@ -127,5 +127,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-For questions or collaboration, please contact [your email/username].
+For questions or collaboration, please get in touch with aksoy.adnankerem@gmail.com
 
