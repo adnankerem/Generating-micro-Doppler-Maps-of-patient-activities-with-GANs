@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project uses Generative Adversarial Networks (GANs) to generate synthetic micro-Doppler maps of patient activities. These maps can be used in Human Activity Recognition (HAR) tasks while preserving privacy, as no cameras or intrusive sensors are required. By leveraging GANs, the project reduces the cost and difficulty of collecting real-world data from hospital environments.
+This project uses Generative Adversarial Networks (GANs) to generate synthetic micro-Doppler maps of patient activities. These maps can be used in Human Activity Recognition (HAR) tasks while preserving privacy, as no cameras or intrusive sensors are required. By leveraging GANs, the project reduces the cost and difficulty of collecting real-world data from hospital environments. To see more details about the project, you can open the .pdf file which I have add.
 
 ## Objectives
 
