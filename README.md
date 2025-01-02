@@ -105,12 +105,13 @@ Plots and visualizations of the generated data are included in the notebook.
 3. **Activity-Specific Generation**: Adapt the GAN to generate specific activities on demand.
 
 ## Installation
+## Installation
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/GAN_microDoppler.git
-   cd GAN_microDoppler
-   ```
+   git clone https://github.com/adnankerem/Generating-micro-Doppler-Maps-of-patient-activities-with-GANs.git
+   cd Generating-micro-Doppler-Maps-of-patient-activities-with-GANs
+
 2. Install required dependencies:
    ```bash
    pip install -r requirements.txt
