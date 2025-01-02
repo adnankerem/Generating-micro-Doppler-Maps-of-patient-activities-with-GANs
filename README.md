@@ -19,14 +19,13 @@ This project uses Generative Adversarial Networks (GANs) to generate synthetic m
 ## Project Structure
 
 ```
-GAN_microDoppler/
-├── src/                # Python scripts or helper functions
-├── notebooks/          # Jupyter notebooks
-├── data/               # Dataset (original and processed)
-├── outputs/            # Generated images, logs, and models
-├── README.md           # Project description
-├── requirements.txt    # Dependencies
-└── LICENSE             # License file
+Generating-micro-Doppler-Maps-of-patient-activities-with-GANs/
+├── src/                                                              # Python scripts or helper functions
+├── data/                                                             # Dataset (original and processed)
+├── Generating_micro-DopplerMaps_of_patient_activities_with_GANs.pdf  # Research paper with results
+├── README.md                                                         # Project description
+├── requirements.txt                                                  # Dependencies
+└── LICENSE                                                           # License file
 ```
 
 ## Dataset
