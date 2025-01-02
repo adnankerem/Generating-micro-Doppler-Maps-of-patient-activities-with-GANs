@@ -1,2 +1,138 @@
 # Generating-micro-Doppler-Maps-of-patient-activities-with-Generative-Adversarial-Network-GANs-
  generation of realistic samples with GAN can reduce the amount  of real data to collect. With up-sampling, down-sampling, and the  activity function we have used in our GAN, we were able to create  micro-Doppler data that is similar to the micro-Doppler data we  had. 
+
+ Abstract—Nowadays Human Activity Recognition (HAR) is
+ used in many areas. In the hospital field, we can use HAR for
+ patients. But for privacy reasons cameras cannot be used in this
+ f
+ ield. As result, for this field, they started to use radar systems.
+ With raw radar data, we can create Range Doppler (RD) maps
+ and from RD maps we can create Micro Doppler maps (MD).
+ From the MDmaps, wecan understand the activity of the patient
+ in the rooms with neural networks. But to train neural networks
+ and get better results we need to gather more data. Currently
+ there is a way to generate data from the already existing data.
+ GAN networks can generate artificial data by being trained by
+ the original data. In the scope of the project the main purpose
+ to use GAN to generate Micro Doppler maps in this field is,
+ because, collecting real micro-Doppler examples is expensive, it
+ requires access to restricted environments (hospitals), and the
+ generation of realistic samples with GAN can reduce the amount
+ of real data to collect. With up-sampling, down-sampling, and the
+ activity function we have used in our GAN, we were able to create
+ micro-Doppler data that is similar to the micro-Doppler data we
+ had. Using the provided GAN architecture with a hardware that
+ is a better fit than ours, the results can be improved.
+ Index Terms—Human Activity Recognition, Supervised Learn
+ing, Optimization, Generative Adverserial Networks, Neural
+ Networks, Convolutional Neural Networks
+ I. INTRODUCTION
+ The aging population and the acute scarcity of medical
+ professionals are two significant issues for today’s healthcare
+ systems [1]. Patients are more frequently observed these days
+ utilizing equipment ranging from IOT sensors to various
+ medical sensors. One of the key components of numerous
+ intelligent surveillance systems, from smart homes to patient
+ health monitoring tools, is the identification of indoor human
+ activity. Video cameras are frequently used as the main sensors
+ in these surveillance systems. Wide viewing angles, high
+definition resolution, and cost-effectiveness are some benefits
+ of video-based surveillance systems. However, they exhibit
+ fundamental flaws such as being ineffective in bad weather
+ and low-light conditions, making it harder to spot people wear
+ing disguises, etc. Moreover, video-based sensors are invasive
+ and might not be a viable option in situations where privacy
+ is vital. Radars, on the other hand, can function in a variety
+ of hazardous situations, including rain, fog, dust, darkness,
+ smoke, and heat. Radar devices are also non-intrusive and
+ privacy-preserving, which makes it easier for them to be used
+ in settings where privacy is highly valued. Additionally, they
+ have the ability to detect through obstacles like walls or other
+ obstructions [2]. The radar sensors are an obvious solution for
+ indoor human activity detection where privacy is important
+ because of these characteristics of the radar sensors.
+ An electromagnetic radio signal is transmitted by a radar
+ instrument in its line of sight, and targets and objects reflect
+ this signal. After a brief interval, the receiver then picks up the
+ signal that was reflected. The range and angle of the target are
+ determined using the signal that was received. The frequency
+ shift in the received signal can be utilized to track a moving
+ target in order to calculate the moving object’s speed. The
+ superposition of all the reflected signals can be visualized as
+ a Micro-Doppler (MD) signature when there are numerous
+ independently moving objects. In the scope of this project,
+ public radar data generated in both hospital and homelab
+ environment which is mentioned as an innovative 240 square
+ meter independent residential test environment for IOT,ss used
+ to train the GAN network to generate data, thus further labeled
+ the generated data.
+ The main contribution provided by this research is Human
+ micro-Doppler data generation for patient activity recognition
+ by using public data provided by X: Collection of real human
+ micro-Doppler data is expensive in terms of cost and time
+ which requires access to restricted environments such as
+ hospitals which are almost always actively used for serving
+ purposes. Generating human micro-Doppler data by GANs
+ reduces the need to collect real data up to some extent.
+ Moreover, being an active research topic, it is contributed to
+ academia for further research. Instead, what can be considered
+ as a secondary contribution of our research is ’Classification
+ of the Data Generated by GAN’: There is not much work
+ conducted, if not any, to generate human micro-doppler data
+ further used to classify patient activity. The data generated by
+ GANisfurther classified by a label that belongs to 14 different
+ activity classes gathered by two different radars with respect
+ to timestamps. More information regarding the different type
+ of activities can be found in the paper X.
+ The organization of this report (document) is as follows.
+ In section II, we discuss previous research in the literature
+ and contrast it with our own results. The processing pipeline
+ is displayed in Section III. Information about signals and
+ features is provided in Section IV. The project’s used learning
+ framework is presented in Section V, and Section VI evaluates
+ its effectiveness. The concluding remarks are found in Section
+ VII.
+ II. RELATED WORK
+ Human activity recognition consists of many different hu
+man behaviors, including walking, running, sitting, sleeping,
+ standing and other anomalous behaviors. HAR has a variety
+ of applications. It can be used to diagnose illnesses and keep
+track of old folks. It can also aid in keeping an eye on illicit
+ activity [1].
+ HAR is applied using supervised and unsupervised models.
+ A comprehensive deep learning algorithm was developed by
+ Alazrai et al. to identify human-to-human interactions (HHI)
+ from Wi-Fi signals. A well-known CSI dataset comprised
+ of 13 human-to-human encounters with 40 different patient
+ couples was used to assess this model. The planned model’s
+ average accuracy in all of this was 86.3 percent.Through
+ the use of an amalgamation of many convolutional neural
+ networks, Zehra et al. developed HAR by using trained and
+ evaluated several ensembles and CNN models. Comparatively
+ speaking, the proposed ensemble model is more accurate than
+ the established models. The primary benefit of this approach
+ is the ability to extract model-relevant features. Because this
+ model does not require pre-processing, training and testing are
+ faster using it [2].
+ Sikder et al. generated a dataset with labels that depicts hu
+man actions including standing up, standing down, and lying
+ down using an attached smartphone that has accelerometer
+ and gyroscope. In order to enable the computer to compre
+hend a variety of human actions, they additionally collected
+ frequency and other information from human action signals
+ using a two-channel convolutional neural network [3].
+ Similar to Alazrai et al., Moshiri meat. al, tried to find
+ correlation between WiFi signals and human movement to
+ classify human activities using synthetic data and GAN. How
+ever, they used synthetic data to reduce the cost of channel
+ state information. They applied principal component analysis
+ on amplitude of data and applied short time Fourier transform
+ for feature extraction [4].
+ The methods listed above demonstrate many approaches
+ to human activity recognition by using neural networks. In
+ contrast to previous projects, ours uses classified data and can
+ generate realistic samples that reduces the amount of real data
+ to be collected. Comparing to smart phone, radars can also
+ provide patients using aids. Finally, our project is less costly
+ in terms of equipment comparing to CSI based human activity
+ recognition projects [4].
