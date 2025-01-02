@@ -1,0 +1,101 @@
+timestamp,command
+2019-11-13T13:57:28.974674,walk to bed
+2019-11-13T13:57:33.508420,sit down on bed
+2019-11-13T13:57:39.537836,stand up from bed
+2019-11-13T13:57:45.155667,walk to room
+2019-11-13T13:57:52.754701,fall on floor of room
+2019-11-13T13:58:01.079394,stand up from floor of room
+2019-11-13T13:58:07.033906,walk to chair
+2019-11-13T13:58:14.290637,sit down on chair
+2019-11-13T13:58:19.557273,stand up from chair
+2019-11-13T13:58:24.139111,walk to room
+2019-11-13T13:58:28.816354,fall on floor of room
+2019-11-13T13:58:34.828224,stand up from floor of room
+2019-11-13T13:58:41.317456,walk to chair
+2019-11-13T13:58:48.086329,sit down on chair
+2019-11-13T13:58:53.776323,stand up from chair
+2019-11-13T13:58:58.426121,walk to room
+2019-11-13T13:59:04.607016,fall on floor of room
+2019-11-13T13:59:10.017240,stand up from floor of room
+2019-11-13T13:59:16.404351,walk to bed
+2019-11-13T13:59:21.337823,get in  bed
+2019-11-13T13:59:27.113219,sit in bed
+2019-11-13T13:59:32.333737,lie in bed
+2019-11-13T13:59:38.233791,roll in bed
+2019-11-13T13:59:48.517806,get out  bed
+2019-11-13T13:59:55.741486,walk to chair
+2019-11-13T14:00:02.792705,sit down on chair
+2019-11-13T14:00:08.324474,stand up from chair
+2019-11-13T14:00:14.391370,walk to bed
+2019-11-13T14:00:21.707885,sit down on bed
+2019-11-13T14:00:27.703890,stand up from bed
+2019-11-13T14:00:33.243458,walk to room
+2019-11-13T14:00:39.337110,fall on floor of room
+2019-11-13T14:00:44.685956,stand up from floor of room
+2019-11-13T14:00:51.732403,walk to chair
+2019-11-13T14:00:59.569259,sit down on chair
+2019-11-13T14:01:04.955173,stand up from chair
+2019-11-13T14:01:09.983379,walk to room
+2019-11-13T14:01:17.787470,fall on floor of room
+2019-11-13T14:01:24.045202,stand up from floor of room
+2019-11-13T14:01:31.704351,walk to bed
+2019-11-13T14:01:37.793228,sit down on bed
+2019-11-13T14:01:44.645006,stand up from bed
+2019-11-13T14:01:51.196011,walk to room
+2019-11-13T14:01:56.655692,fall on floor of room
+2019-11-13T14:02:01.872021,stand up from floor of room
+2019-11-13T14:02:09.545741,walk to bed
+2019-11-13T14:02:15.642349,get in  bed
+2019-11-13T14:02:24.034353,sit in bed
+2019-11-13T14:02:31.015404,get out  bed
+2019-11-13T14:02:38.008144,walk to chair
+2019-11-13T14:02:44.517563,sit down on chair
+2019-11-13T14:02:49.976959,stand up from chair
+2019-11-13T14:02:54.965300,walk to room
+2019-11-13T14:03:04.836129,fall on floor of room
+2019-11-13T14:03:09.853528,stand up from floor of room
+2019-11-13T14:03:16.121649,walk to bed
+2019-11-13T14:03:21.401766,sit down on bed
+2019-11-13T14:03:27.459213,stand up from bed
+2019-11-13T14:03:33.132422,walk to chair
+2019-11-13T14:03:41.602244,sit down on chair
+2019-11-13T14:03:46.919642,stand up from chair
+2019-11-13T14:03:51.305779,walk to bed
+2019-11-13T14:03:58.612456,get in  bed
+2019-11-13T14:04:05.539699,lie in bed
+2019-11-13T14:04:11.692960,roll in bed
+2019-11-13T14:04:20.434156,sit in bed
+2019-11-13T14:04:26.586210,roll in bed
+2019-11-13T14:04:32.795390,get out  bed
+2019-11-13T14:04:38.961896,walk to room
+2019-11-13T14:04:44.353083,fall on floor of room
+2019-11-13T14:04:48.708671,stand up from floor of room
+2019-11-13T14:04:55.943935,walk to bed
+2019-11-13T14:05:00.976989,sit down on bed
+2019-11-13T14:05:08.323651,stand up from bed
+2019-11-13T14:05:12.739005,walk to chair
+2019-11-13T14:05:17.064787,sit down on chair
+2019-11-13T14:05:23.063029,stand up from chair
+2019-11-13T14:05:28.856051,walk to room
+2019-11-13T14:05:35.744852,fall on floor of room
+2019-11-13T14:05:40.133295,stand up from floor of room
+2019-11-13T14:05:46.274819,walk to chair
+2019-11-13T14:05:52.236805,walk to bed
+2019-11-13T14:05:56.272527,sit down on bed
+2019-11-13T14:06:00.918182,stand up from bed
+2019-11-13T14:06:05.577637,walk to chair
+2019-11-13T14:06:11.499187,sit down on chair
+2019-11-13T14:06:16.062436,stand up from chair
+2019-11-13T14:06:20.841504,walk to bed
+2019-11-13T14:06:26.442770,get in  bed
+2019-11-13T14:06:31.590416,sit in bed
+2019-11-13T14:06:35.598978,lie in bed
+2019-11-13T14:06:42.550204,get out  bed
+2019-11-13T14:06:47.787545,walk to chair
+2019-11-13T14:06:55.823585,sit down on chair
+2019-11-13T14:07:01.883661,stand up from chair
+2019-11-13T14:07:06.970642,walk to bed
+2019-11-13T14:07:14.234956,sit down on bed
+2019-11-13T14:07:20.777474,stand up from bed
+2019-11-13T14:07:26.497924,walk to room
+2019-11-13T14:07:29.430479,fall on floor of room
