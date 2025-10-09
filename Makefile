@@ -9,6 +9,6 @@ run:
 	python main.py
 
 lint:
-	pylint --disable=R,C main.py
+	pylint *.py
 
 all: install lint format run
