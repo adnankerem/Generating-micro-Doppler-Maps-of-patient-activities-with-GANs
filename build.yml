@@ -1,0 +1,20 @@
+build-job:
+  stage: install
+  script:
+    - make install
+
+lint-job:
+  stage: lint
+  script: 
+    - make lint
+
+format-job:
+  stage: format
+  script:
+    - make format
+
+Run-prod:
+  stage: run
+  script:
+    - make run
+  environment: production
