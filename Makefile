@@ -6,9 +6,9 @@ format:
 	black *.py
 
 run:
-	python main.py
+	python src/Generating_micro-Doppler_Maps_of_patient_activities_with_Generative_Adversarial_Network.ipynb
 
 lint:
-	pylint *.py
+	pylint src/*.ipynb
 
 all: install lint format run
