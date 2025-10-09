@@ -7,6 +7,5 @@ format:
 run:
 	python src/Generating_micro-Doppler_Maps_of_patient_activities_with_Generative_Adversarial_Network.ipynb
 lint:
-	
 	pycodestyle src/Generating_micro-Doppler_Maps_of_patient_activities_with_Generative_Adversarial_Network.ipynb
 all: install lint format run
